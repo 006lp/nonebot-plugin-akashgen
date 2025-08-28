@@ -1,0 +1,15 @@
+[project]
+name = "nonebot-plugin-akashgen"
+version = "0.1.0"
+description = "An FREE AI image generation plugin for NoneBot2 using Akash Network."
+authors = [
+    { name = "006lp", email = "006lpsuki@gmail.com" },
+]
+license = { text = "AGPL v3" }
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "nonebot-adapter-onebot>=2.4.6",
+    "nonebot2>=2.4.3",
+]
