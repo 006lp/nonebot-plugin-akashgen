@@ -35,6 +35,3 @@ class Config(BaseModel):
     akash_allowed_groups: Optional[List[str]] = None
     akash_blocked_users: Optional[List[str]] = None
 
-
-# Global configuration instance
-plugin_config = Config.model_validate(get_driver().config.model_dump())

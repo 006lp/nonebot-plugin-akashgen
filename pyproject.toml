@@ -1,6 +1,6 @@
 [project]
 name = "nonebot-plugin-akashgen"
-version = "0.1.0"
+version = "0.1.1"
 description = "An FREE AI image generation plugin for NoneBot2 using Akash Network."
 authors = [
     { name = "006lp", email = "006lpsuki@gmail.com" },

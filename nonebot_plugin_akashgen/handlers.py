@@ -2,7 +2,7 @@ import asyncio
 import time
 from typing import Dict, Any
 
-from nonebot import on_command, logger
+from nonebot import on_command, logger, get_plugin_config
 from nonebot.adapters.onebot.v11 import (
     Bot,
     GroupMessageEvent,
@@ -14,7 +14,9 @@ from nonebot.params import CommandArg
 from nonebot.permission import SUPERUSER
 
 from .api import akash_client, AkashAPIError
-from .config import plugin_config
+from .config import Config
+
+plugin_config = get_plugin_config(Config)
 
 
 # Rate limiting storage

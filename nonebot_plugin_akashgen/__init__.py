@@ -3,7 +3,7 @@ from nonebot.plugin import PluginMetadata
 from .config import Config
 from .handlers import *  # noqa: F403,F401
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __plugin_meta__ = PluginMetadata(
     name="Akash Image Generator",
     description="AI image generation using Akash Network",

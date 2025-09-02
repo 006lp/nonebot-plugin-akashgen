@@ -4,9 +4,11 @@ from dataclasses import dataclass
 from enum import Enum
 
 import httpx
-from nonebot import logger
+from nonebot import logger, get_plugin_config
 
-from .config import plugin_config
+from .config import Config
+
+plugin_config = get_plugin_config(Config)
 
 
 class JobStatus(Enum):
